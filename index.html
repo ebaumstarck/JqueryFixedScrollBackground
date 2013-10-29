@@ -32,12 +32,14 @@
   <body>
     <div class="container">    
       <div id="cbp-fbscroller" class="cbp-fbscroller">
+        <!--
         <nav>
           <a href="#fbsection1" class="cbp-fbcurrent">a</a>
           <a href="#fbsection2">b</a>
           <a href="#fbsection3">c</a>
           <a href="#fbsection4">d</a>
         </nav>
+        
         <section id="fbsection1">
           <div class="sectionwrap">
             <div class="contentwrap">
@@ -92,6 +94,7 @@
             </div>
           </div>
         </section>
+        -->
       </div>
     </div>
     <script type="text/javascript">
@@ -101,11 +104,13 @@
 	      "backgroundImages":["images/LasVegas.jpg",
 		        "images/SanFrancisco.jpg",
 				"images/SanJuanIsland.jpg",
-				"images/CherryBlossom.jpg"]
+				"images/CherryBlossom.jpg"],
+        "numSections": 4,
+        // "isNavigation": false,
 	    }
 	    /*$("#fbsection3").css("background-image","images/LasVegas.jpg");*/
         
-		$("body").fixedScrollLayout(userConfig);
+		$.fn.fixedScrollLayout(userConfig);
       });
     </script>
   </body>
