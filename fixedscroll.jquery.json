@@ -1,7 +1,7 @@
 {
   "name": "fixedscroll",
   "title": "jQuery Fixed Scroll Background",
-  "description": "A responsive site layout with fixed-background scrolling in its sections.",
+  "description": "A responsive site layout with fixed-background scrolling sections.",
   "keywords": [
     "responsive",
     "fixed",
@@ -32,6 +32,6 @@
   "docs": "https://github.com/ebaumstarck/JqueryFixedScrollBackground",
   "download": "https://github.com/ebaumstarck/JqueryFixedScrollBackground/zipball/master",
   "dependencies": {
-    "jquery": ">=1.5"
+    "jquery": ">=1.9.1"
   }
 }
