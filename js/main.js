@@ -2,10 +2,10 @@ $(document).ready(function(){
   $('body').fixedScroll({
     // or provide a list of background images or colors
     'backgrounds': [
-        '/images/CherryBlossom.jpg',
-        // 'images/LasVegas.jpg',
-        '/images/SanFrancisco.jpg',
-        '/images/SanJuanIsland.jpg',
+        '/images/CherryBlossom.JPG',
+        // 'images/LasVegas.JPG',
+        '/images/SanFrancisco.JPG',
+        '/images/SanJuanIsland.JPG',
         'skyblue'
     ],
     // also specify the number of sections manually with 'numSections'
