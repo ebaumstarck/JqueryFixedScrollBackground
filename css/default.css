@@ -1,10 +1,8 @@
 /**
- * cbpFixedScrollLayout.js v1.0.0
- * http://www.codrops.com
- *
+ * CopyRight 2013, Emma L. Baumstarck
+ * Adapted from http://www.codrops.com
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -21,30 +19,31 @@
   display: block;
   font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  height: 479px;
   line-height: 21px;
-  margin-bottom: 0px;
-  margin-left: 246.1875px;
-  margin-right: 246.203125px;
-  margin-top: 0px;
-  max-width: 600px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  width: 600px;
+  max-width: 40%;
   zoom: 1;
   display: inline-block;
-  width: 40%;
-  height: 30%;
-  text-align: left;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
+.content {
+  padding: 0 5%;
+}
+.content a:active,
+.content a:link,
+.content a:visited {
+  color: #404;
+  text-decoration: none;
+}
+.content a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
 /* Set all parents to full height */
 html, body, 
 .container,
-.cbp-fbscroller,
-.cbp-fbscroller section { 
+.scroller,
+.scroller section { 
   height: 100%; 
   font-size: 100%;
   padding: 0; 
@@ -52,7 +51,7 @@ html, body,
 }
 /* The nav is fixed on the right side  and we center it by translating it 50% 
 (we don't know it's height so we can't use the negative margin trick) */
-.cbp-fbscroller > nav {
+.scroller > nav {
   position: fixed;
   z-index: 9999;
   right: 100px;
@@ -63,11 +62,10 @@ html, body,
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.cbp-fbscroller > nav a {
+.scroller > nav a {
   display: block;
   position: relative;
   z-index: 9999;
-  /*color: transparent;*/
   width: 80px;
   height: 80px;
   outline: none;
@@ -84,16 +82,15 @@ html, body,
   text-decoration:none;
   padding-top:50%;
 }
-.cbp-fbscroller > section {
+.scroller > section {
   display: table; 
   width: 100%;
 }
-.cbp-fbscroller > nav a.cbp-fbcurrent {
-  /*background-color: rgba(255, 255, 255, 0.6);*/
+.scroller > nav a.current {
   border: 6px solid #fff;
 }
 /* background-attachment does the trick */
-.cbp-fbscroller section {
+.scroller section {
   position: relative;
   background-position: top center;
   background-repeat: no-repeat;
