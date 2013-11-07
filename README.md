@@ -10,7 +10,7 @@ Additional functionality included with this plugin:
 
 Copyright 2013, Emma L. Baumstarck
 
-Adapted from http://www.codrops.com
+Adapted from http://tympanus.net/codrops/2013/05/02/fixed-background-scrolling-layout/
 
 Licensed under the MIT license.
 
