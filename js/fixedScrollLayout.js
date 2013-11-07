@@ -1,5 +1,5 @@
 /**
- * CopyRight 2013, Emma L. Baumstarck
+ * Copyright 2013, Emma L. Baumstarck
  * Adapted from http://www.codrops.com
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php

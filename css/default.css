@@ -1,5 +1,5 @@
 /**
- * CopyRight 2013, Emma L. Baumstarck
+ * Copyright 2013, Emma L. Baumstarck
  * Adapted from http://www.codrops.com
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
@@ -13,7 +13,7 @@
 }
 .contentwrap {
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 4px 0px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.72);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 4px 0px;
   color: rgb(0, 44, 62);
   display: block;
