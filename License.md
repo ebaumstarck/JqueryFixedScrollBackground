@@ -1,4 +1,4 @@
-Software License Agreement (BSD License) Copyright (c) 2012, Emma L. Baumstarck.
+Software License Agreement (BSD License) Copyright (c) 2013, Emma L. Baumstarck.
 
 All rights reserved.
 
