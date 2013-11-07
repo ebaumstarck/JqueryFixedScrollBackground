@@ -1,0 +1,37 @@
+{
+  "name": "fixedscroll",
+  "title": "jQuery Fixed Scroll Background",
+  "description": "A responsive site layout with fixed-background scrolling in its sections.",
+  "keywords": [
+    "responsive",
+    "fixed",
+    "scroll",
+    "background",
+    "web design",
+    "ui"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Emma L. Baumstarck",
+    "url": "https://github.com/ebaumstarck"
+  },
+  "maintainers": [
+    {
+      "name": "Emma L. Baumstarck",
+      "url": "https://github.com/ebaumstarck"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ebaumstarck/JqueryFixedScrollBackground/blob/master/License.md"
+    }
+  ],
+  "bugs": "https://github.com/ebaumstarck/JqueryFixedScrollBackground/issues",
+  "homepage": "http://fixedscroll.appspot.com/",
+  "docs": "https://github.com/ebaumstarck/JqueryFixedScrollBackground",
+  "download": "https://github.com/ebaumstarck/JqueryFixedScrollBackground/zipball/master",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
